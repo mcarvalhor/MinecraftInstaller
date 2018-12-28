@@ -1,0 +1,7 @@
+username.names: [{0}]
+username.lastused: ''
+auto.name: {0}
+language: {1}
+auto.language: true
+auto.enabled: true
+confver: '2'

@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Default": {
+      "name": "Default",
+      "launcherVisibilityOnGameClose": "close launcher when game starts"
+    }
+  },
+  "selectedProfile": "Default",
+  "launcherVersion": {
+    "name": "Shiginima Launcher v4.100",
+    "format": 21,
+    "profilesFormat": 1
+  }
+}

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_CloseButton" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="About_Text_" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Home_AboutButton" xml:space="preserve">
+    <value>Sobre...</value>
+  </data>
+  <data name="Home_PlayButton" xml:space="preserve">
+    <value>Jogar</value>
+  </data>
+  <data name="Home_ReinstallButton" xml:space="preserve">
+    <value>Reinstalar...</value>
+  </data>
+  <data name="Home_StartError" xml:space="preserve">
+    <value>Não foi possível iniciar o aplicativo! Tente instalar ele novamente (reinstalar).</value>
+  </data>
+  <data name="Home_StartErrorTitle" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="Home_StartNotFound" xml:space="preserve">
+    <value>O aplicativo não está corretamente instalado! Tente instalar ele novamente (reinstalar).</value>
+  </data>
+  <data name="Home_StartNotFoundTitle" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="Home_UninstallButton" xml:space="preserve">
+    <value>Desinstalar...</value>
+  </data>
+  <data name="Home_UninstallConfirm" xml:space="preserve">
+    <value>Tem certeza que deseja remover o aplicativo instalado e todo o ser conteúdo? Você vai perder tudo o que já fez.</value>
+  </data>
+  <data name="Home_UninstallConfirmTitle" xml:space="preserve">
+    <value>Desinstalar</value>
+  </data>
+  <data name="Home_UninstallError" xml:space="preserve">
+    <value>Erro ao desinstalar! Tente novamente.</value>
+  </data>
+  <data name="Home_UninstallErrorTitle" xml:space="preserve">
+    <value>Desinstalação</value>
+  </data>
+  <data name="Home_UninstallSuccess" xml:space="preserve">
+    <value>Desinstalado com sucesso!</value>
+  </data>
+  <data name="Home_UninstallSuccessTitle" xml:space="preserve">
+    <value>Desinstalação</value>
+  </data>
+  <data name="Install_ButtonClose" xml:space="preserve">
+    <value>Cancelar e Fechar</value>
+  </data>
+  <data name="Install_ButtonConfirm" xml:space="preserve">
+    <value>Instalar</value>
+  </data>
+  <data name="Install_DesktopFieldText" xml:space="preserve">
+    <value>Criar ícone de atalho na Área de Trabalho.</value>
+  </data>
+  <data name="Install_Error" xml:space="preserve">
+    <value>Erro ao instalar! Tente novamente.</value>
+  </data>
+  <data name="Install_ErrorTitle" xml:space="preserve">
+    <value>Instalação</value>
+  </data>
+  <data name="Install_Info" xml:space="preserve">
+    <value>Vamos prosseguir com a instalação do Shiginima Minecraft Launcher.</value>
+  </data>
+  <data name="Install_InvalidUsername" xml:space="preserve">
+    <value>O usuário inserido contém caracteres não permitidos. Use apenas caracteres alfanuméricos (A-Z, a-z, 0-9) e sublinhado (_).</value>
+  </data>
+  <data name="Install_InvalidUsernameTitle" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="Install_Success" xml:space="preserve">
+    <value>Instalado com sucesso!</value>
+  </data>
+  <data name="Install_SuccessTitle" xml:space="preserve">
+    <value>Instalação</value>
+  </data>
+  <data name="Install_UsernameFieldDescription" xml:space="preserve">
+    <value>Esse usuário será seu nome durante a jogatina.</value>
+  </data>
+  <data name="Install_UsernameFieldText" xml:space="preserve">
+    <value>Usuário:</value>
+  </data>
+  <data name="Install_UsernameRequired" xml:space="preserve">
+    <value>É necessário inserir um usuário para a instalação!</value>
+  </data>
+  <data name="Install_UsernameRequiredTitle" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="Splash_RequiredUpdateCancelled" xml:space="preserve">
+    <value>É uma atualização obrigatória. Você não vai poder iniciar o programa enquanto não atualizar.</value>
+  </data>
+  <data name="Splash_RequiredUpdateCancelledTitle" xml:space="preserve">
+    <value>Atualização Obrigatória</value>
+  </data>
+  <data name="Splash_RequiredUpdateDownload" xml:space="preserve">
+    <value>Há uma atualização obrigatória disponível, e você não poderá utilizar o programa enquanto não atualizar.{0}{0}Baixe a nova versão do programa no website:{0}{1}</value>
+  </data>
+  <data name="Splash_RequiredUpdateDownloaded" xml:space="preserve">
+    <value>Há uma atualização obrigatória disponível, e você não poderá utilizar o programa enquanto não atualizar. A atualização foi automaticamente baixada e será aplicada agora. Você deve continuar a instalação manualmente.</value>
+  </data>
+  <data name="Splash_RequiredUpdateDownloadedTitle" xml:space="preserve">
+    <value>Atualização Obrigatória</value>
+  </data>
+  <data name="Splash_RequiredUpdateDownloadTitle" xml:space="preserve">
+    <value>Atualização Obrigatória</value>
+  </data>
+  <data name="Splash_RequiredUpdateError" xml:space="preserve">
+    <value>Há uma atualização obrigatória disponível, e você não poderá utilizar o programa enquanto não atualizar.{0}{0}Baixe a nova versão do programa no website:{0}{1}</value>
+  </data>
+  <data name="Splash_RequiredUpdateErrorTitle" xml:space="preserve">
+    <value>Atualização Obrigatória</value>
+  </data>
+  <data name="Splash_UpdateDownload" xml:space="preserve">
+    <value>Há uma atualização disponível para o programa, e você pode atualizar a qualquer momento.{0}{0}Baixe a nova versão do programa no website:{0}{1}</value>
+  </data>
+  <data name="Splash_UpdateDownloadTitle" xml:space="preserve">
+    <value>Atualização</value>
+  </data>
+  <data name="Splash_UpdateError" xml:space="preserve">
+    <value>Baixe a nova versão do programa no website:{0}{1}</value>
+  </data>
+  <data name="Splash_UpdateErrorTitle" xml:space="preserve">
+    <value>Atualização</value>
+  </data>
+  <data name="Splash_UpdateQuestion" xml:space="preserve">
+    <value>Há uma atualização disponível para o programa, e você pode atualizar a qualquer momento.{0}Deseja atualizar agora?</value>
+  </data>
+  <data name="Splash_UpdateQuestionTitle" xml:space="preserve">
+    <value>Atualização</value>
+  </data>
+  <data name="Install_Lang" xml:space="preserve">
+    <value>pt</value>
+  </data>
+</root>
