@@ -252,4 +252,49 @@
   <data name="Install_Lang" xml:space="preserve">
     <value>pt</value>
   </data>
+  <data name="Home_ExportButton" xml:space="preserve">
+    <value>Exportar progresso de jogo...</value>
+  </data>
+  <data name="Home_ExportChooserTitle" xml:space="preserve">
+    <value>Escolha o local de salvamento do arquivo...</value>
+  </data>
+  <data name="Home_ExportError" xml:space="preserve">
+    <value>Erro ao exportar progresso de jogo! Tente novamente.</value>
+  </data>
+  <data name="Home_ExportErrorTitle" xml:space="preserve">
+    <value>Exportar Progresso de Jogo</value>
+  </data>
+  <data name="Home_ExportSuccess" xml:space="preserve">
+    <value>Progresso de jogo exportado com sucesso!</value>
+  </data>
+  <data name="Home_ExportSuccessTitle" xml:space="preserve">
+    <value>Exportar Progresso de Jogo</value>
+  </data>
+  <data name="Home_ImportAlert" xml:space="preserve">
+    <value>Atenção: você pode perder jogos salvos no momento se você usou o mesmo nome para salvá-los.</value>
+  </data>
+  <data name="Home_ImportAlertTitle" xml:space="preserve">
+    <value>Importar Progresso de Jogo</value>
+  </data>
+  <data name="Home_ImportButton" xml:space="preserve">
+    <value>Importar progresso de jogo...</value>
+  </data>
+  <data name="Home_ImportChooserTitle" xml:space="preserve">
+    <value>Selecione o arquivo previamente salvo...</value>
+  </data>
+  <data name="Home_ImportError" xml:space="preserve">
+    <value>Erro ao importar progresso de jogo! Tente novamente.</value>
+  </data>
+  <data name="Home_ImportErrorTitle" xml:space="preserve">
+    <value>Importar Progresso de Jogo</value>
+  </data>
+  <data name="Home_ImportSuccess" xml:space="preserve">
+    <value>Progresso de jogo importado com sucesso!</value>
+  </data>
+  <data name="Home_ImportSuccessTitle" xml:space="preserve">
+    <value>Importar Progresso de Jogo</value>
+  </data>
+  <data name="Process_Text" xml:space="preserve">
+    <value>Aguarde um momento...</value>
+  </data>
 </root>

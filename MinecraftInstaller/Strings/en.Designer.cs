@@ -88,6 +88,132 @@ namespace MinecraftInstaller.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save game progress....
+        /// </summary>
+        internal static string Home_ExportButton {
+            get {
+                return ResourceManager.GetString("Home_ExportButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose a path to save game progress file....
+        /// </summary>
+        internal static string Home_ExportChooserTitle {
+            get {
+                return ResourceManager.GetString("Home_ExportChooserTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Couldn&apos;t export game progress successfully! Try again..
+        /// </summary>
+        internal static string Home_ExportError {
+            get {
+                return ResourceManager.GetString("Home_ExportError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Game Progress.
+        /// </summary>
+        internal static string Home_ExportErrorTitle {
+            get {
+                return ResourceManager.GetString("Home_ExportErrorTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game progress exported successfully!.
+        /// </summary>
+        internal static string Home_ExportSuccess {
+            get {
+                return ResourceManager.GetString("Home_ExportSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Game Progress.
+        /// </summary>
+        internal static string Home_ExportSuccessTitle {
+            get {
+                return ResourceManager.GetString("Home_ExportSuccessTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Warning: you may lose currently saved games progress if you used the same name to save them..
+        /// </summary>
+        internal static string Home_ImportAlert {
+            get {
+                return ResourceManager.GetString("Home_ImportAlert", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Load Progress.
+        /// </summary>
+        internal static string Home_ImportAlertTitle {
+            get {
+                return ResourceManager.GetString("Home_ImportAlertTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Load game progress....
+        /// </summary>
+        internal static string Home_ImportButton {
+            get {
+                return ResourceManager.GetString("Home_ImportButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select previously saved game progress file....
+        /// </summary>
+        internal static string Home_ImportChooserTitle {
+            get {
+                return ResourceManager.GetString("Home_ImportChooserTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Couldn&apos;t import game progress successfully! Try again..
+        /// </summary>
+        internal static string Home_ImportError {
+            get {
+                return ResourceManager.GetString("Home_ImportError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Load Game Progress.
+        /// </summary>
+        internal static string Home_ImportErrorTitle {
+            get {
+                return ResourceManager.GetString("Home_ImportErrorTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game progress imported successfully!.
+        /// </summary>
+        internal static string Home_ImportSuccess {
+            get {
+                return ResourceManager.GetString("Home_ImportSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Load Game Progress.
+        /// </summary>
+        internal static string Home_ImportSuccessTitle {
+            get {
+                return ResourceManager.GetString("Home_ImportSuccessTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Play.
         /// </summary>
         internal static string Home_PlayButton {
@@ -336,6 +462,15 @@ namespace MinecraftInstaller.Strings {
         internal static string Install_UsernameRequiredTitle {
             get {
                 return ResourceManager.GetString("Install_UsernameRequiredTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wait a moment....
+        /// </summary>
+        internal static string Process_Text {
+            get {
+                return ResourceManager.GetString("Process_Text", resourceCulture);
             }
         }
         

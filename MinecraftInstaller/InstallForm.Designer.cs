@@ -40,6 +40,7 @@
 			this.labelTextDescription = new System.Windows.Forms.Label();
 			this.checkBoxIcon = new System.Windows.Forms.CheckBox();
 			this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+			this.backgroundWorkerInstall = new System.ComponentModel.BackgroundWorker();
 			this.tableLayoutPanelMain.SuspendLayout();
 			this.tableLayoutPanelButtons.SuspendLayout();
 			this.tableLayoutPanelUser.SuspendLayout();
@@ -200,6 +201,11 @@
 			this.pictureBoxLogo.TabStop = false;
 			this.pictureBoxLogo.Click += new System.EventHandler(this.pictureBoxLogo_Click);
 			// 
+			// backgroundWorkerInstall
+			// 
+			this.backgroundWorkerInstall.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorkerInstall_DoWork);
+			this.backgroundWorkerInstall.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorkerInstall_RunWorkerCompleted);
+			// 
 			// InstallForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -237,5 +243,6 @@
 		private System.Windows.Forms.Label labelTextDescription;
 		private System.Windows.Forms.CheckBox checkBoxIcon;
 		private System.Windows.Forms.PictureBox pictureBoxLogo;
+		private System.ComponentModel.BackgroundWorker backgroundWorkerInstall;
 	}
 }

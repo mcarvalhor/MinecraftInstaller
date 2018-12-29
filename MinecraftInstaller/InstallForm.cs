@@ -17,6 +17,8 @@ namespace MinecraftInstaller
 			InitializeComponent();
 		}
 
+		private ProcessForm processDialog;
+
 		private void InstallForm_Load(object sender, EventArgs e)
 		{
 			string savedUsername, savedUsernamePath;
@@ -107,18 +109,38 @@ namespace MinecraftInstaller
 				return;
 			}
 
-			this.Visible = false;
-			if (Utils.Install(textBoxUser.Text, checkBoxIcon.Checked, Utils.GetString("Install_Lang")))
+			this.Hide();
+			this.processDialog = new ProcessForm();
+			backgroundWorkerInstall.RunWorkerAsync(new object[] { textBoxUser.Text, checkBoxIcon.Checked, Utils.GetString("Install_Lang") }); // Utils.Install(string, bool, string);
+			this.processDialog.ShowDialog();
+		}
+
+		private void backgroundWorkerInstall_DoWork(object sender, DoWorkEventArgs e)
+		{
+			object[] arguments;
+
+			arguments = (object[]) e.Argument;
+			e.Result = Utils.Install((string) arguments[0], (bool) arguments[1], (string) arguments[2]);
+		}
+
+		private void backgroundWorkerInstall_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+		{
+			bool result;
+
+			this.processDialog.Finished();
+			this.processDialog.Dispose();
+			this.processDialog = null;
+
+			result = (bool) e.Result;
+			if (result)
 			{
 				MessageBox.Show(String.Format(Utils.GetString("Install_Success"), Environment.NewLine), Utils.GetString("Install_SuccessTitle"), MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
-			}
-			else
+			} else
 			{
 				MessageBox.Show(String.Format(Utils.GetString("Install_Error"), Environment.NewLine), Utils.GetString("Install_ErrorTitle"), MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
 			}
 			Program.instanceMutex.ReleaseMutex();
 			Application.Restart();
 		}
-
 	}
 }
