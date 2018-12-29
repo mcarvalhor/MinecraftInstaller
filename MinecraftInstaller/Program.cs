@@ -31,6 +31,7 @@ namespace MinecraftInstaller
 			}
 			else
 			{
+				System.Media.SystemSounds.Beep.Play();
 				Console.Out.WriteLine("Exiting because another instance of the application is already open.");
 				Console.Out.WriteLine("If it actually isn't, restart the computer.");
 			}
