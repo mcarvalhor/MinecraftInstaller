@@ -38,6 +38,7 @@ namespace MinecraftInstaller
 				Application.DoEvents();
 				System.Threading.Thread.Sleep(8);
 			}
+			this.Opacity = 1.0;
 		}
 
 		private void Start()

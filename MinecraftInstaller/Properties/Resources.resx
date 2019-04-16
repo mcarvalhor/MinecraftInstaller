@@ -124,9 +124,6 @@
   <data name="mcLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mcLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Shiginima_Launcher_SE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Shiginima_Launcher_SE.jar;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -135,5 +132,8 @@
   </data>
   <data name="logoBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logoBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shiginima_Launcher_SE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shiginima_Launcher_SE_v4.200.jar;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
