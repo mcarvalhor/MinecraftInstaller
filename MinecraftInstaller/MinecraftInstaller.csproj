@@ -169,12 +169,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\launcher_profiles.json" />
-    <None Include="Resources\Shiginima_Launcher_SE.jar" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="logoIco.ico" />
     <None Include="Resources\Shiginima_Launcher_SE_v4.200.jar" />
+    <None Include="Resources\launcher_profiles.json" />
     <None Include="Resources\logoBg.png" />
     <None Include="Resources\logoRedBg.png" />
     <None Include="Resources\mcLogo.png" />

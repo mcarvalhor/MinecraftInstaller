@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="shig_inima" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shig_inima;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="mcLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mcLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="launcher_profiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\launcher_profiles.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="logoBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logoBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="launcher_profiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\launcher_profiles.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Shiginima_Launcher_SE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Shiginima_Launcher_SE_v4.200.jar;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shig_inima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shig_inima;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

@@ -2,12 +2,13 @@
   "profiles": {
     "Default": {
       "name": "Default",
+      "javaArgs": "-Xmx2G -XX:+UseConcMarkSweepGC -XX:-UseAdaptiveSizePolicy -Xmn128M",
       "launcherVisibilityOnGameClose": "close launcher when game starts"
     }
   },
   "selectedProfile": "Default",
   "launcherVersion": {
-    "name": "Shiginima Launcher v4.100",
+    "name": "Shiginima Launcher v4.200",
     "format": 21,
     "profilesFormat": 1
   }

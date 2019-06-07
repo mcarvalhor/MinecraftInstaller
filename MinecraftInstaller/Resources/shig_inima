@@ -1,7 +1,8 @@
 username.names: [{0}]
-username.lastused: ''
-auto.name: {0}
+username.lastused: {0}
+theme.dark: false
+auto.name: ''
 language: {1}
-auto.language: true
-auto.enabled: true
+auto.language: false
+auto.enabled: false
 confver: '2'
