@@ -170,6 +170,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logoIco.ico" />
+    <None Include="Resources\Shiginima_Launcher_SE_v4400.jar" />
     <None Include="Resources\Shiginima_Launcher_SE_v4.200.jar" />
     <None Include="Resources\launcher_profiles.json" />
     <None Include="Resources\logoBg.png" />

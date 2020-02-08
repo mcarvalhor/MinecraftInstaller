@@ -1,6 +1,6 @@
 username.names: [{0}]
 username.lastused: {0}
-theme.dark: false
+theme.dark: true
 auto.name: ''
 language: {1}
 auto.language: false
